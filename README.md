@@ -4,7 +4,7 @@ Participants submit entries for review. The file stays in private storage, and t
 
 ![Role checks for a synthetic private entry, including a reviewer whose assignment was removed](docs/preview.png)
 
-![The participant's private entry and authorized download link on a local WordPress test site](docs/participant-view.png)
+![The English participant view showing a pending private entry and the owner's download link](docs/participant-view.png)
 
 The sample uses the storage class and download access methods from Chaleshino Call Review. The test checks policy decisions with synthetic WordPress identities. The full plugin handles the upload and checks access before it serves the saved file.
 
