@@ -1,0 +1,18 @@
+:root { color: #172735; background: #f1f5f6; font-family: system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 760px; margin: auto; padding: clamp(20px, 5vw, 56px); }
+header { background: #173f45; color: #fff; padding: clamp(20px, 4vw, 36px); border-radius: 16px; margin-bottom: 16px; }
+header p { margin: 0; color: #d4ede8; }
+h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.04; margin: 12px 0; }
+section { padding: clamp(15px, 3vw, 26px); background: #fff; border: 1px solid #d6e0e1; border-radius: 16px; }
+.file { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding-bottom: 18px; }
+h2 { font-size: 1.13rem; margin: 0 0 5px; }
+.file p, small { color: #51616d; margin: 0; }
+small { display: block; font-weight: 400; margin-top: 3px; }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+th, td { text-align: start; padding: 12px 4px; border-top: 1px solid #e4ebec; }
+td, thead th:last-child { text-align: end; }
+.protected, .allowed, .denied { display: inline-block; padding: 6px 10px; border-radius: 8px; font-size: .82rem; font-weight: 650; white-space: nowrap; }
+.protected, .allowed { background: #e2f2eb; color: #185a43; }
+.denied { background: #f4eef0; color: #75364c; }
